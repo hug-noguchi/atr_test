@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-
-
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,16 +31,21 @@
   <header>
     <div class="header">
       <div class="inner clearfix">
-        <h1>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="『あなたらしく』  大阪・兵庫・奈良老人ホーム・高齢者施設紹介センター">
-          </a>
-        </h1>
-      <!--    
+        <div class="header_box">
+          <h1>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="『あなたらしく』  大阪・兵庫・奈良老人ホーム・高齢者施設紹介センター">
+            </a>
+          </h1>
+          <div class="btn_service">
+            <a href="https://www.bellco.co.jp/anatarasiku/"> 老人ホーム選びの<br class="sp">無料サポートサービス</a>
+          </div>
+        </div>
+      <!--
         <div class="powered">
           <img src="<?php echo get_template_directory_uri(); ?>" alt="">
         </div>
-      
+
         <ul class="sns">
           <li>
             <a href="" target="_blank">
@@ -62,7 +64,7 @@
     <nav>
       <div class="nav">
             <ul>
-				<li><a href="<?php echo home_url(); ?>"><span>ホーム</span></a></li>
+				<li><a href="<?php echo home_url(); ?>"><span>最新記事</span></a></li>
 				<li><a href="<?php echo home_url(); ?>/knowledge/"><span>老人ホームの<br>きほん</span></a></li>
 				<li><a href="<?php echo home_url(); ?>/qa/"><span>お悩み<br>Q&A</span></a></li>
 				<li><a href="<?php echo home_url(); ?>/preparation/"><span>準備ガイド</span></a></li>
